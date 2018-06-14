@@ -17,7 +17,7 @@ String riddle = JOptionPane.showInputDialog("I have hands I can move but I canno
 if (riddle.equals("clock")){
 JOptionPane.showMessageDialog(null, "correcto mundo");
 score++;
-JOptionPane.showMessageDialog(null, "congrats you scored" + score);
+JOptionPane.showMessageDialog(null, "congrats you scored " + score);
 }		// 5. Otherwise, say "wrong" and tell them the answer
 else {
 	JOptionPane.showMessageDialog(null, "WROOOOOOOONG!!!");
@@ -29,7 +29,7 @@ String riddler = JOptionPane.showInputDialog("They try to beat me, they try in v
 if(riddler.equals("death")) {
 JOptionPane.showMessageDialog(null, "correcto mundo");
 score++;
-	JOptionPane.showMessageDialog(null, "congrats you scored" + score);
+	JOptionPane.showMessageDialog(null, "congrats you scored " + score);
 }
 else {
 	JOptionPane.showMessageDialog(null, "WROOOOOOOONG!!!");
@@ -41,7 +41,7 @@ String riddlee = JOptionPane.showInputDialog(null, "What is so delicate that say
 if(riddlee.equals("silence")) {
 	JOptionPane.showMessageDialog(null, "correcto mundo");
 	score++;
-		JOptionPane.showMessageDialog(null, "congrats you scored" + score);
+		JOptionPane.showMessageDialog(null, "congrats you scored " + score);
 }
 else {
 	JOptionPane.showMessageDialog(null, "WROOOOOOOONG!!!");
